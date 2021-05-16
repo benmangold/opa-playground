@@ -1,7 +1,7 @@
 
 .DEFAULT_GOAL := help
 
-# default target, 
+# default target, prints help info
 
 help:
 	@ echo """ \
