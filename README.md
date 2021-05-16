@@ -23,11 +23,13 @@ requires docker
 
 server is configured via `./opa-docker/config.yaml`
 
-## conftest-github-actions
+## conftest-docker
 
 requires docker
 
+running rego policies against github action workflows
+
 ```bash
-./conftest-github-actions/test.sh # run github actions policy tests in docker
+./conftest-docker/test.sh # run github actions policy tests in docker
 ```
 
