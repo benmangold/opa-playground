@@ -8,6 +8,8 @@ requires curl,  make, docker
 
 `make install` - install opa and conftest binaries in project root. requries curl
 
+`make test` - run `conftest docker` policy tests. requires docker
+
 ## opa-docker
 
 requires docker
